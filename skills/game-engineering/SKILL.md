@@ -212,7 +212,7 @@ Classic definition: "Juicy feedback is like a ripe peach — when you touch it, 
 - **Reward Inflation**: If every behavior is rewarded, rewards lose all value
 - **Missing the Onboarding Phase**: Dropping players directly into competition or complexity
 - **No Endgame**: Players who reach maximum level have nothing to strive for
-- **Static Design": Not updating the system based on player feedback and data
+- **Static Design**: Not updating the system based on player feedback and data
 
 ## Output Format
 
