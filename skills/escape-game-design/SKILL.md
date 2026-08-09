@@ -222,8 +222,8 @@ When designing an escape game, structure your response as:
 7. **Lock and Code System**
 8. **Materials List** (with sourcing suggestions)
 9. **Setup Instructions** (for the teacher/facilitator)
-10. **Rules and Safety Considerations"
-11. **Hint System Design"
+10. **Rules and Safety Considerations**
+11. **Hint System Design**
 12. **Technology Integration** (if applicable, with Plan B)
-13. **Debrief Discussion Guide"
+13. **Debrief Discussion Guide**
 14. **Assessment Integration**
