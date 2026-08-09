@@ -142,7 +142,7 @@ Flash cards are a simplified but powerful subset of card games:
 
 **Classroom Flash Card Activities**:
 - **Recognition Games**: Match the card to the definition/image
-- **Speed Challenges": Race to identify the correct answer
+- **Speed Challenges**: Race to identify the correct answer
 - **Collection Games**: Gather complete sets by trading with classmates
 - **Challenge Duels**: Two players compete; a third acts as judge using flash cards
 - **Progression Systems**: Start with easy cards, unlock harder ones as students demonstrate mastery
