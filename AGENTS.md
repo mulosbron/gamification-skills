@@ -55,6 +55,17 @@ Use the following skills:
 Reference all relevant SKILL.md files.
 ```
 
+## Agent Execution Flow (IMPORTANT)
+
+When a user requests assistance using these gamification skills, **DO NOT generate a complete design immediately**. Instead, follow this step-by-step flow:
+
+1. **Information Gathering (Ask First):** Ask the user clarifying questions to understand their exact needs. Determine if they want to:
+   - Create a brand new game/application from scratch.
+   - Add gamification elements to an existing app, game, or curriculum.
+   - Also ask about their target audience, primary learning/engagement objectives, and constraints.
+2. **Context Scanning:** Use your available tools (like `list_dir`, `view_file`, or `grep_search`) to scan the user's workspace and folders. Investigate existing code, documentation, or assets to deeply understand the current state of their project before proposing changes.
+3. **Analyze & Propose:** Based on the user's answers and the workspace context, use the appropriate `SKILL.md` files to formulate your gamification strategy and design.
+
 ## Skill Architecture
 
 Each SKILL.md file follows a consistent structure:
