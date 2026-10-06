@@ -87,24 +87,3 @@ gamification-skills/
     └── game-engineering/
         └── SKILL.md                    # Motivation Theory & Game Science Specialist
 ```
-
----
-
-## 🎯 Core Design Principles
-
-All 5 skills adhere strictly to 8 universal design principles:
-
-1. 🥦 **No "Chocolate-Covered Broccoli"**: Educational content is woven **into** game mechanics, never tacked on as an afterthought quiz.
-2. 🧠 **75% Psychology, 25% Technology**: Gamification is motivational design, not tool or software selection.
-3. 🔥 **Intrinsic Over Extrinsic**: Design for internal motivation. Status, Access, and Power beat physical rewards ("Stuff").
-4. 👥 **Serve All Player Types**: Accommodate Achievers, Explorers, Socializers, and Competitors in every design.
-5. 🌊 **Flow State Optimization**: Dynamically balance challenge against skill level to prevent boredom or anxiety.
-6. ⭕ **Voluntary Magic Circle**: Participation must feel chosen; forced gamification fails.
-7. 📖 **Narrative as Vehicle**: Storytelling gives meaning and emotional weight to game mechanics.
-8. 🔄 **Agile Iteration**: Games are designed once, but gamification systems evolve continuously based on player response.
-
----
-
-## 📄 License
-
-This repository is licensed under the [MIT License](LICENSE).

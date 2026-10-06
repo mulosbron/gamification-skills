@@ -1,209 +1,56 @@
 ---
 name: digital-gamification
-description: "Use when the user asks about gamification platforms, reward systems, XP/level systems, or digital motivation design."
+description: "Use when the user asks about gamification platforms (Kahoot, Classcraft), reward systems, XP/level systems, or digital motivation design."
 metadata:
   category: design
-  triggers: gamification, Kahoot, Classcraft, points, badges, XP, leaderboard
+  triggers: gamification, Kahoot, Classcraft, XP, points, badges, leaderboard, levels
 ---
 
-# Digital Gamification Specialist
+# Digital Gamification
 
-You are an expert in applying gamification to digital learning environments and integrating digital tools into gamified educational experiences. You understand the full spectrum from fully digital platforms (Kahoot, Classcraft, Quizizz, Socrative) to hybrid approaches that blend physical and digital elements. You know that gamification is 75% psychology and 25% technology, and you never confuse adding game mechanics with designing meaningful motivational experiences.
+Design gamification systems for a lesson, a unit, or a whole semester, and pick the platform last. The output is a motivational architecture with a narrative, an unlock timeline, a reward structure, and a low-tech fallback.
 
-## Core Identity
+## Design stance
 
-When a user asks you to gamify a digital platform, create a gamified course, design a digital reward system, implement a gamified assessment strategy, or select and configure educational gamification software, you activate this skill. You think in terms of motivational architecture, engagement loops, digital tool ecosystems, and the psychological principles that make gamification effective.
+- Gamification is 75% psychology, 25% technology. Points, badges and leaderboards without motivational design is the most common and least effective form.
+- It is agile. The system is updated during the term based on how students respond. Set-and-forget is not gamification.
+- Embed learning in the mechanic. In a controlled comparison of two versions of a math game, the version where solving the problem was the attack scored about 20% better and retained far better at 30 days than the version with a quiz after play.
+- Beware the novelty effect. Early pilots of any new tool look great because being first is motivating. When the novelty fades, only the motivational architecture holds.
 
-## Agent Execution Flow (IMPORTANT)
+## Design sequence
 
-1. **Information Gathering:** Ask clarifying questions to determine if they want to build a digital gamification system from scratch or add elements to an existing digital app/game. Understand their target audience and goals.
-2. **Context Scanning:** Use your tools to scan their project directory (`list_dir`, `view_file`) to understand the current app architecture, codebase, or existing gamification elements before proposing changes.
-3. **Analyze & Propose:** Only proceed to design and output once you have gathered sufficient context.
+1. Goals: which topic, which behavior change, measurable.
+2. Target behaviors: what you want to see, mapped to objectives.
+3. Players: age, interests, digital literacy, player types. Young children want color, story and physical play. Older students handle digital tools and complex narrative.
+4. Behavior loop: easy to hard progression, start and end, what triggers engagement (timer, teacher, surprise envelope), what reward sits at each level.
+5. Fun: mix easy fun, hard fun, people fun and serious fun.
+6. Structure and story: reveal gradually. Badges first, team formation later, reward marketplace after that. Every element is announced through the narrative.
 
-## Knowledge Base
+## Scale it up
 
-### The Fundamental Truth About Gamification
+A single gamified lesson reinforces one topic. A weekly unit links several games into one story ("save 8 galaxies in 8 weeks"). A semester runs one arc with progression and rewards spanning the term. The bigger the arc, the stronger the effect.
 
-> **"Gamification is 75% psychology, 25% technology."**
+Models worth copying: students start at 0 XP and every positive action adds, XP converts to a grade at term end (one documented course moved its pass rate from 71% to 93% and doubled assignment completion). Quests replace homework, ranks replace grades: Novice, Apprentice, Journeyman, Senior, Master.
 
-Gamification is NOT:
-- Simply playing games in class
-- Just adding points, badges, and leaderboards (PBL)
-- A one-time design that never changes
-- Only for digital/technology-supported contexts
-- Only about rewarding behavior
+## Platform notes
 
-Gamification IS:
-- Using game mechanics as tools to drive intrinsic motivation and behavioral change
-- An agile system — it is continuously updated and improved during implementation
-- A methodology that draws from behavioral science and behavioral economics
-- Limited only by imagination, not by theories or programs
-- Designing the experience around the 8 core emotions (Octalysis), not just mechanics
+- Kahoot works because it balances positive drives (points, ranking) with tension (countdown, visible answer counts). Needs a device per student. Halve the teams and use two tablets per team, or go zero-tech with Plickers cards the teacher scans.
+- Quizizz: live or homework mode, progress tracking, remediation reports.
+- Socrative: use Space Race mode as an exit ticket to lift end-of-class motivation.
+- Classcraft: whole-class RPG with avatars, XP, HP and team accountability. Middle school and up.
+- Classroomscreen: timer, scoreboard, name picker, noise meter, no signup. The entry point for beginners.
+- Hybrid ideas: QR codes hidden in the room, Google Forms as locks, spreadsheet leaderboards, video messages from story characters.
 
-### Digital Gamification Platforms
+Choose the platform after the motivational design, and always ship a no-tech fallback.
 
-#### Quiz-Based Platforms
+## Anti-patterns
 
-**Kahoot**:
-- Real-time quiz game with countdown timer, scoring, and leaderboard
-- Creates urgency through time pressure and social comparison
-- Balances positive emotions (points, correct answers, ranking) with tension (countdown, answer visibility, remaining questions) — this is why it's so engaging
-- **Limitation**: Every student needs their own device
-- **Low-Tech Alternative**: Split each team in half, use 2 tablets per team
-- **Zero-Tech Alternative**: Use Plickers — paper cards with 4 orientations for A/B/C/D answers, teacher scans with phone
+- Points, badges, leaderboards and nothing underneath.
+- Gift cards or prizes for behaviors that should be intrinsic, like reading.
+- One trigger for every player type.
+- Revealing the whole structure on day one.
+- A tool that interrupts the learning flow.
 
-**Quizizz**:
-- Two modes: live game and homework assignment
-- Rich gamification elements: badges, points, progress bars, leaderboards, feedback
-- Uses visual memes/messages after questions to maintain curiosity
-- Enables individual practice with learning journey tracking
-- Teacher can create custom quizzes or use existing ones
-- Reports allow analysis and targeted remediation
+## Done when
 
-**Socrative**:
-- Web-based platform for individual or team-based question answering
-- Visual leaderboard for progress tracking
-- Gives students time to reconsider wrong answers
-- Three game modes: Quiz, Space Race, Exit Ticket
-- **Exit Ticket Hack**: Use "Space Race" mode for end-of-class assessments to boost motivation and desire to succeed
-
-#### Comprehensive Gamification Platforms
-
-**Classcraft**:
-- Transforms the entire classroom into a role-playing game experience
-- Students create avatars with classes (Warrior, Mage, Healer)
-- Earn XP (Experience Points), GP (Gold Points), HP (Health Points), and AP (Action Points)
-- Game-based feedback replaces traditional grading: completing tasks and requesting activities earns XP converted to grades
-- Students take responsibility for team and individual behaviors
-- Develops self-regulation skills through an enjoyable system
-- Social learning through empathy and solidarity
-- **Best for**: Middle school, high school, university
-
-**Classroomscreen**:
-- For teachers who find comprehensive systems too complex
-- No registration required
-- Web-based display on smartboard for whole-class tracking
-- Simple gamification elements: timer, scoreboard, random name picker, noise meter
-- Perfect entry point for gamification newcomers
-
-### The D6 Gamification Design Model
-
-Adapted for educational design:
-
-#### Step 1: Define Goals (WHAT?)
-- What subject/topic will be gamified?
-- What behavioral changes are targeted?
-- How will gamification boost interest and motivation?
-- Set specific, measurable goals before designing anything
-
-#### Step 2: Describe Target Behaviors (HOW?)
-- What specific behaviors do you want to see?
-- What does the desired end state look like?
-- Map behaviors to learning objectives
-
-#### Step 3: Understand Your Players (WHO?)
-- Analyze student player types (Player type taxonomy)
-- Consider age, interests, digital literacy
-- Design game constructs based on player profiles
-- Young children: colors, stories, physical games
-- Older students: digital games, videos, complex narratives
-
-#### Step 4: Design Behavior Loops (HOW MUCH?)
-- How does the game progress from easy to challenging?
-- When does it start and end?
-- What triggers engagement? (timer? teacher? surprise envelope?)
-- What rewards exist at each level?
-- Map the complete engagement loop
-
-#### Step 5: Don't Forget Fun (WHAT'S ENTERTAINING?)
-- Fun is personal — consider all 4 fun types:
-  - **Easy Fun**: Simple pleasure (popping bubble wrap)
-  - **Hard Fun": Challenge and mastery (strategy games)
-  - **People Fun**: Social interaction (team games)
-  - **Serious Fun**: Learning and behavioral change (quiz shows)
-- The best gamification combines multiple fun types
-- Reference the 4 Keys to Fun framework
-
-#### Step 6: Game Structure and Storytelling
-- Add game dynamics and mechanics to the design
-- **CRITICAL**: Do NOT reveal the entire structure at once
-- Gradually unlock elements: badges first, then team formation, then reward marketplace
-- Communicate everything through narrative/storytelling
-- The story makes the mechanics meaningful
-
-### Curriculum-Level Gamification
-
-The most powerful application of gamification is not a single game or lesson — it's gamifying the entire curriculum arc.
-
-**Single Lesson**: One game reinforces one topic. ("Solve this puzzle to save Mars!")
-
-**Weekly Unit**: Multiple games over weeks form a connected narrative. ("Save 8 galaxies by winning 8 weekly challenges!")
-
-**Full Semester**: An overarching story connects all gamified elements. Rewards and progression span the entire term.
-
-**Case Study — The Multiplayer Classroom Model**:
-- Students start at 0 XP (not 100 points that decrease)
-- All positive actions INCREASE their score
-- XP converts to letter grades at end of term
-- Results: Pass rate increased from 71% to 93%
-- Students completed 2x more assignments
-- Students completed tasks 30% faster
-
-**Case Study — Game-Based School Model**:
-- Entire curriculum designed by game designers
-- Students complete "quests" instead of homework
-- Grades replaced by ranks: Novice, Apprentice, Journeyman, Senior, Master
-- Learning feels like an adventure, not like school
-- Program built on "knowing" and "doing"
-
-### The Chocolate-Covered Broccoli Principle
-
-**The Intrinsic vs. Extrinsic Integration Experiment**:
-- Two versions of a 3D math game where players divide zombies by their numbers
-- **Intrinsic Version**: Math operations ARE the game mechanic — you attack by solving division correctly
-- **Extrinsic Version**: Play the game normally, then answer math quizzes at the end
-- **Results**: Intrinsic version learners scored ~20% better AND showed dramatically better retention in 30-day follow-up tests
-
-**The Lesson**: When gamifying learning, embed the learning content INTO the game mechanics. Do NOT pause the game to deliver educational content. The brain that learns through game flow stops learning the moment the flow is broken.
-
-### The Novelty Effect — A Cautionary Tale
-
-Initial implementations of new technologies often show dramatic academic improvement. However, when the technology becomes standard across all classrooms, the results frequently fail to replicate. Why? The original improvement often comes from the MOTIVATION of novelty ("being the first to try something new") — not from the technology itself. When novelty wears off, motivation disappears unless backed by core gamification principles.
-
-**Implication**: Gamification must be built on motivational architecture, not on technology or surface-level game mechanics.
-
-### Digital-Physical Hybrid Approaches
-
-- QR codes hidden in the classroom linking to video clues
-- Augmented Reality (AR) overlays on physical materials
-- Google Forms as digital "lock" mechanisms
-- Spreadsheet-based leaderboard systems
-- Video messages from "characters" in the game narrative
-- Digital puzzle generators for printable materials
-
-## Anti-Patterns to Avoid
-
-- **PBL-Only Gamification**: Points, badges, leaderboards without underlying motivational design is the most common and least effective form
-- **External Rewards for Internal Behaviors**: Don't use extrinsic rewards (gift cards, prizes) for behaviors that should be intrinsically motivated (reading, curiosity)
-- **One-Size-Fits-All**: Different player types need different motivational triggers
-- **Set-and-Forget**: Gamification must be continuously updated based on student response
-- **Technology-First Thinking**: Start with the motivational design, then choose tools
-- **Ignoring the Flow State**: If the digital tool breaks the learning flow, it's counterproductive
-
-## Output Format
-
-When designing a digital gamification system, structure your response as:
-
-1. **Platform Recommendation** (with justification)
-2. **Target Audience and Context**
-3. **Learning Objectives**
-4. **Gamification Architecture** (D6 model applied)
-5. **Player Type Accommodation** (how each player type is engaged)
-6. **Engagement Loop Design** (onboarding → scaffolding → mastery → endgame)
-7. **Narrative/Theme**
-8. **Mechanics and Dynamics** (specific platform features used)
-9. **Reward Structure** (intrinsic focus with selective extrinsic elements)
-10. **Implementation Timeline** (what to unlock when)
-11. **Assessment Integration**
-12. **Low-Tech/No-Tech Fallbacks**
-13. **Iteration Plan** (how to improve based on data)
+The teacher has a narrative, a week-by-week unlock plan, a reward structure that leans on status and access, a chosen platform with a fallback, and a plan for what to adjust after the first two weeks.
